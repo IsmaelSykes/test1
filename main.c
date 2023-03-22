@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "lib1/lib1.h"
 #include "lib2/lib2.h"
+#include "lib3/lib3.h"
 
 int main(void)
 {
@@ -12,6 +13,7 @@ int main(void)
 	printf("Adding: %d \n",r);
 	mult(n1,n2,&r);
 	printf("Mult: %d \n",r);
-
+	moding(n1,n2,&r);
+	printf("Moding: %d \n",r);
 	return 0;
 }
