@@ -17,5 +17,10 @@ int main(void)
 	printf("Moding: %d \n",r);
 	char nombre[] = "Rodrigo";
 	message(nombre,sizeof(nombre));
+	int array[10] = {4,4,4,4,4,4,4,4,4,4};
+	mean(array,10,&r);
+	printf("Mean: %d \n",r);
+
+
 	return 0;
 }
