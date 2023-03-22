@@ -9,11 +9,13 @@ int main(void)
 	printf("----- Numbers ----\n");
 	printf("n1: %d \n",n1);
 	printf("n2: %d \n",n2);
-	adding(n1,n2,&r);
+	r = adding(n1,n2);
 	printf("Adding: %d \n",r);
 	mult(n1,n2,&r);
 	printf("Mult: %d \n",r);
 	moding(n1,n2,&r);
 	printf("Moding: %d \n",r);
+	char nombre[] = "Rodrigo";
+	message(nombre,sizeof(nombre));
 	return 0;
 }
